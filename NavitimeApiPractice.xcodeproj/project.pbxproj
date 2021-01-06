@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,11 @@
 		3416135325A5B0D700D1C227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3416135125A5B0D700D1C227 /* LaunchScreen.storyboard */; };
 		3416135E25A5B0D800D1C227 /* NavitimeApiPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416135D25A5B0D800D1C227 /* NavitimeApiPracticeTests.swift */; };
 		3416136925A5B0D800D1C227 /* NavitimeApiPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416136825A5B0D800D1C227 /* NavitimeApiPracticeUITests.swift */; };
+		3416138325A5B24400D1C227 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416138225A5B24400D1C227 /* NextViewController.swift */; };
+		3416138825A5B3E700D1C227 /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416138725A5B3E700D1C227 /* Directions.swift */; };
+		6FA970FAB79FECEFDEB60899 /* Pods_NavitimeApiPractice_NavitimeApiPracticeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56217280D71CDFF36059925E /* Pods_NavitimeApiPractice_NavitimeApiPracticeUITests.framework */; };
+		CCCAB862194FCF1CD32A243A /* Pods_NavitimeApiPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33368E36286BC0DD27A2B1E6 /* Pods_NavitimeApiPractice.framework */; };
+		EC1434C64B0D151AF813FE0F /* Pods_NavitimeApiPracticeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3251C741F464B7378A74BE77 /* Pods_NavitimeApiPracticeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3251C741F464B7378A74BE77 /* Pods_NavitimeApiPracticeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavitimeApiPracticeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33368E36286BC0DD27A2B1E6 /* Pods_NavitimeApiPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavitimeApiPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3416134325A5B0D400D1C227 /* NavitimeApiPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavitimeApiPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3416134625A5B0D400D1C227 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3416134825A5B0D400D1C227 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,15 @@
 		3416136425A5B0D800D1C227 /* NavitimeApiPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavitimeApiPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3416136825A5B0D800D1C227 /* NavitimeApiPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavitimeApiPracticeUITests.swift; sourceTree = "<group>"; };
 		3416136A25A5B0D800D1C227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3416138225A5B24400D1C227 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		3416138725A5B3E700D1C227 /* Directions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directions.swift; sourceTree = "<group>"; };
+		4551067EEBB739968F05FA97 /* Pods-NavitimeApiPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavitimeApiPractice.debug.xcconfig"; path = "Target Support Files/Pods-NavitimeApiPractice/Pods-NavitimeApiPractice.debug.xcconfig"; sourceTree = "<group>"; };
+		56217280D71CDFF36059925E /* Pods_NavitimeApiPractice_NavitimeApiPracticeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavitimeApiPractice_NavitimeApiPracticeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		732552A0FD83237356C790B0 /* Pods-NavitimeApiPractice-NavitimeApiPracticeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavitimeApiPractice-NavitimeApiPracticeUITests.debug.xcconfig"; path = "Target Support Files/Pods-NavitimeApiPractice-NavitimeApiPracticeUITests/Pods-NavitimeApiPractice-NavitimeApiPracticeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E6527534561F8E4B746D12D /* Pods-NavitimeApiPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavitimeApiPractice.release.xcconfig"; path = "Target Support Files/Pods-NavitimeApiPractice/Pods-NavitimeApiPractice.release.xcconfig"; sourceTree = "<group>"; };
+		A1C21961838B60570B0CD05B /* Pods-NavitimeApiPractice-NavitimeApiPracticeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavitimeApiPractice-NavitimeApiPracticeUITests.release.xcconfig"; path = "Target Support Files/Pods-NavitimeApiPractice-NavitimeApiPracticeUITests/Pods-NavitimeApiPractice-NavitimeApiPracticeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C17A53BCF6AF112728D88743 /* Pods-NavitimeApiPracticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavitimeApiPracticeTests.release.xcconfig"; path = "Target Support Files/Pods-NavitimeApiPracticeTests/Pods-NavitimeApiPracticeTests.release.xcconfig"; sourceTree = "<group>"; };
+		E6F34F2CB8C6C0C9C9849870 /* Pods-NavitimeApiPracticeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavitimeApiPracticeTests.debug.xcconfig"; path = "Target Support Files/Pods-NavitimeApiPracticeTests/Pods-NavitimeApiPracticeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCCAB862194FCF1CD32A243A /* Pods_NavitimeApiPractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC1434C64B0D151AF813FE0F /* Pods_NavitimeApiPracticeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FA970FAB79FECEFDEB60899 /* Pods_NavitimeApiPractice_NavitimeApiPracticeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,8 @@
 				3416135C25A5B0D800D1C227 /* NavitimeApiPracticeTests */,
 				3416136725A5B0D800D1C227 /* NavitimeApiPracticeUITests */,
 				3416134425A5B0D400D1C227 /* Products */,
+				E54265665C8E37A2989DB08F /* Pods */,
+				F5710F7E763DDE00FEB08A71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +123,12 @@
 				3416134625A5B0D400D1C227 /* AppDelegate.swift */,
 				3416134825A5B0D400D1C227 /* SceneDelegate.swift */,
 				3416134A25A5B0D400D1C227 /* ViewController.swift */,
+				3416138225A5B24400D1C227 /* NextViewController.swift */,
 				3416134C25A5B0D400D1C227 /* Main.storyboard */,
 				3416134F25A5B0D700D1C227 /* Assets.xcassets */,
 				3416135125A5B0D700D1C227 /* LaunchScreen.storyboard */,
 				3416135425A5B0D700D1C227 /* Info.plist */,
+				3416138725A5B3E700D1C227 /* Directions.swift */,
 			);
 			path = NavitimeApiPractice;
 			sourceTree = "<group>";
@@ -128,6 +151,29 @@
 			path = NavitimeApiPracticeUITests;
 			sourceTree = "<group>";
 		};
+		E54265665C8E37A2989DB08F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4551067EEBB739968F05FA97 /* Pods-NavitimeApiPractice.debug.xcconfig */,
+				7E6527534561F8E4B746D12D /* Pods-NavitimeApiPractice.release.xcconfig */,
+				732552A0FD83237356C790B0 /* Pods-NavitimeApiPractice-NavitimeApiPracticeUITests.debug.xcconfig */,
+				A1C21961838B60570B0CD05B /* Pods-NavitimeApiPractice-NavitimeApiPracticeUITests.release.xcconfig */,
+				E6F34F2CB8C6C0C9C9849870 /* Pods-NavitimeApiPracticeTests.debug.xcconfig */,
+				C17A53BCF6AF112728D88743 /* Pods-NavitimeApiPracticeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F5710F7E763DDE00FEB08A71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33368E36286BC0DD27A2B1E6 /* Pods_NavitimeApiPractice.framework */,
+				56217280D71CDFF36059925E /* Pods_NavitimeApiPractice_NavitimeApiPracticeUITests.framework */,
+				3251C741F464B7378A74BE77 /* Pods_NavitimeApiPracticeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3416136D25A5B0D800D1C227 /* Build configuration list for PBXNativeTarget "NavitimeApiPractice" */;
 			buildPhases = (
+				8EE653A28CA7433E4AB91F95 /* [CP] Check Pods Manifest.lock */,
 				3416133F25A5B0D400D1C227 /* Sources */,
 				3416134025A5B0D400D1C227 /* Frameworks */,
 				3416134125A5B0D400D1C227 /* Resources */,
+				A9EA400465C9A767BBD06043 /* [CP] Embed Pods Frameworks */,
+				5C834FFDF0B9A3AC000AFA10 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3416137025A5B0D800D1C227 /* Build configuration list for PBXNativeTarget "NavitimeApiPracticeTests" */;
 			buildPhases = (
+				B4D6D5FE1C5025A18453E863 /* [CP] Check Pods Manifest.lock */,
 				3416135525A5B0D800D1C227 /* Sources */,
 				3416135625A5B0D800D1C227 /* Frameworks */,
 				3416135725A5B0D800D1C227 /* Resources */,
@@ -170,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3416137325A5B0D800D1C227 /* Build configuration list for PBXNativeTarget "NavitimeApiPracticeUITests" */;
 			buildPhases = (
+				9A67FE21D91F65B8C7B912EF /* [CP] Check Pods Manifest.lock */,
 				3416136025A5B0D800D1C227 /* Sources */,
 				3416136125A5B0D800D1C227 /* Frameworks */,
 				3416136225A5B0D800D1C227 /* Resources */,
+				6347B8C3AC0C09ECB7D61633 /* [CP] Embed Pods Frameworks */,
+				BCC660180BBC31CB6E31137F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,14 +306,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5C834FFDF0B9A3AC000AFA10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NavitimeApiPractice/Pods-NavitimeApiPractice-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NavitimeApiPractice/Pods-NavitimeApiPractice-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NavitimeApiPractice/Pods-NavitimeApiPractice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6347B8C3AC0C09ECB7D61633 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NavitimeApiPractice-NavitimeApiPracticeUITests/Pods-NavitimeApiPractice-NavitimeApiPracticeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NavitimeApiPractice-NavitimeApiPracticeUITests/Pods-NavitimeApiPractice-NavitimeApiPracticeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NavitimeApiPractice-NavitimeApiPracticeUITests/Pods-NavitimeApiPractice-NavitimeApiPracticeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EE653A28CA7433E4AB91F95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NavitimeApiPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A67FE21D91F65B8C7B912EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NavitimeApiPractice-NavitimeApiPracticeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9EA400465C9A767BBD06043 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NavitimeApiPractice/Pods-NavitimeApiPractice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NavitimeApiPractice/Pods-NavitimeApiPractice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NavitimeApiPractice/Pods-NavitimeApiPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4D6D5FE1C5025A18453E863 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NavitimeApiPracticeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCC660180BBC31CB6E31137F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NavitimeApiPractice-NavitimeApiPracticeUITests/Pods-NavitimeApiPractice-NavitimeApiPracticeUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NavitimeApiPractice-NavitimeApiPracticeUITests/Pods-NavitimeApiPractice-NavitimeApiPracticeUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NavitimeApiPractice-NavitimeApiPracticeUITests/Pods-NavitimeApiPractice-NavitimeApiPracticeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3416133F25A5B0D400D1C227 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3416134B25A5B0D400D1C227 /* ViewController.swift in Sources */,
+				3416138325A5B24400D1C227 /* NextViewController.swift in Sources */,
 				3416134725A5B0D400D1C227 /* AppDelegate.swift in Sources */,
 				3416134925A5B0D400D1C227 /* SceneDelegate.swift in Sources */,
+				3416138825A5B3E700D1C227 /* Directions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +625,7 @@
 		};
 		3416136E25A5B0D800D1C227 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4551067EEBB739968F05FA97 /* Pods-NavitimeApiPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +644,7 @@
 		};
 		3416136F25A5B0D800D1C227 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E6527534561F8E4B746D12D /* Pods-NavitimeApiPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +663,7 @@
 		};
 		3416137125A5B0D800D1C227 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6F34F2CB8C6C0C9C9849870 /* Pods-NavitimeApiPracticeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +685,7 @@
 		};
 		3416137225A5B0D800D1C227 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C17A53BCF6AF112728D88743 /* Pods-NavitimeApiPracticeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +707,7 @@
 		};
 		3416137425A5B0D800D1C227 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 732552A0FD83237356C790B0 /* Pods-NavitimeApiPractice-NavitimeApiPracticeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +727,7 @@
 		};
 		3416137525A5B0D800D1C227 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C21961838B60570B0CD05B /* Pods-NavitimeApiPractice-NavitimeApiPracticeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
