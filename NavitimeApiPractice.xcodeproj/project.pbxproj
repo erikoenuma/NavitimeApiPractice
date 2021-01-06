@@ -16,7 +16,8 @@
 		3416135E25A5B0D800D1C227 /* NavitimeApiPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416135D25A5B0D800D1C227 /* NavitimeApiPracticeTests.swift */; };
 		3416136925A5B0D800D1C227 /* NavitimeApiPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416136825A5B0D800D1C227 /* NavitimeApiPracticeUITests.swift */; };
 		3416138325A5B24400D1C227 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416138225A5B24400D1C227 /* NextViewController.swift */; };
-		3416138825A5B3E700D1C227 /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416138725A5B3E700D1C227 /* Directions.swift */; };
+		3416138825A5B3E700D1C227 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416138725A5B3E700D1C227 /* Direction.swift */; };
+		3416139725A6053000D1C227 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416139625A6053000D1C227 /* Geometry.swift */; };
 		6FA970FAB79FECEFDEB60899 /* Pods_NavitimeApiPractice_NavitimeApiPracticeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56217280D71CDFF36059925E /* Pods_NavitimeApiPractice_NavitimeApiPracticeUITests.framework */; };
 		CCCAB862194FCF1CD32A243A /* Pods_NavitimeApiPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33368E36286BC0DD27A2B1E6 /* Pods_NavitimeApiPractice.framework */; };
 		EC1434C64B0D151AF813FE0F /* Pods_NavitimeApiPracticeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3251C741F464B7378A74BE77 /* Pods_NavitimeApiPracticeTests.framework */; };
@@ -57,7 +58,8 @@
 		3416136825A5B0D800D1C227 /* NavitimeApiPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavitimeApiPracticeUITests.swift; sourceTree = "<group>"; };
 		3416136A25A5B0D800D1C227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3416138225A5B24400D1C227 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
-		3416138725A5B3E700D1C227 /* Directions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directions.swift; sourceTree = "<group>"; };
+		3416138725A5B3E700D1C227 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		3416139625A6053000D1C227 /* Geometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
 		4551067EEBB739968F05FA97 /* Pods-NavitimeApiPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavitimeApiPractice.debug.xcconfig"; path = "Target Support Files/Pods-NavitimeApiPractice/Pods-NavitimeApiPractice.debug.xcconfig"; sourceTree = "<group>"; };
 		56217280D71CDFF36059925E /* Pods_NavitimeApiPractice_NavitimeApiPracticeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavitimeApiPractice_NavitimeApiPracticeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		732552A0FD83237356C790B0 /* Pods-NavitimeApiPractice-NavitimeApiPracticeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavitimeApiPractice-NavitimeApiPracticeUITests.debug.xcconfig"; path = "Target Support Files/Pods-NavitimeApiPractice-NavitimeApiPracticeUITests/Pods-NavitimeApiPractice-NavitimeApiPracticeUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -128,7 +130,8 @@
 				3416134F25A5B0D700D1C227 /* Assets.xcassets */,
 				3416135125A5B0D700D1C227 /* LaunchScreen.storyboard */,
 				3416135425A5B0D700D1C227 /* Info.plist */,
-				3416138725A5B3E700D1C227 /* Directions.swift */,
+				3416138725A5B3E700D1C227 /* Direction.swift */,
+				3416139625A6053000D1C227 /* Geometry.swift */,
 			);
 			path = NavitimeApiPractice;
 			sourceTree = "<group>";
@@ -450,9 +453,10 @@
 			files = (
 				3416134B25A5B0D400D1C227 /* ViewController.swift in Sources */,
 				3416138325A5B24400D1C227 /* NextViewController.swift in Sources */,
+				3416139725A6053000D1C227 /* Geometry.swift in Sources */,
 				3416134725A5B0D400D1C227 /* AppDelegate.swift in Sources */,
 				3416134925A5B0D400D1C227 /* SceneDelegate.swift in Sources */,
-				3416138825A5B3E700D1C227 /* Directions.swift in Sources */,
+				3416138825A5B3E700D1C227 /* Direction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
