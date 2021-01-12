@@ -10,29 +10,12 @@ import Alamofire
 
 class NavitimeAPI{
     
-    var startLat: Double = 0.0
-    var startLng: Double = 0.0
-    var goalLat: Double = 0.0
-    var goalLng: Double = 0.0
-    
-    //GeometryAPIから出発地の緯度経度を受け取る
-    func setStartGeometry(lat: Double, lng: Double){
-        self.startLat = lat
-        self.startLng = lng
-    }
-    
-    //GeometryAPIから到着地の緯度経度を受け取る
-    func setGoalGeometry(lat: Double, lng: Double){
-        self.goalLat = lat
-        self.goalLng = lng
-    }
-    
     let headerContent = [
         "x-rapidapi-host": "navitime-route-car.p.rapidapi.com",
         "x-rapidapi-key": "d058e7a572msh65b2857f9c8bdf7p1f1fe3jsne067d62882cb"
     ]
     
-    private func getRouteShape(completion: @escaping((RouteShape) -> Void)){
+    func getRouteShape(startLat: Double, startLng: Double, goalLat: Double, goalLng: Double, completion: @escaping((RouteShape?) -> Void)){
         
         //headerの設定をする
         let headers = HTTPHeaders.init(headerContent)
@@ -73,7 +56,7 @@ class NavitimeAPI{
     }
 }
     
-    private func getDirection(completion: @escaping((Direction)-> Void)){
+    func getDirection(startLat: Double, startLng: Double, goalLat: Double, goalLng: Double, completion: @escaping((Direction?)-> Void)){
         
         //headerの設定をする
         let headers = HTTPHeaders.init(headerContent)
