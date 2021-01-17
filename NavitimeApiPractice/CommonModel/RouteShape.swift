@@ -9,7 +9,7 @@ import Foundation
 
 
 struct RouteShape: Codable{
-    let items: [items]
+    var items: [items]
 }
 
 struct items: Codable{
@@ -17,13 +17,14 @@ struct items: Codable{
 }
 
 struct path: Codable{
-    let coords: locationPoint
+    
+    let coords: [[Double]]
     let width: Int
     let color: String
-    let opacity: Int
-    let roadType: String
+    let opacity: Double
+    let roadType: String!
     
-    enum CodingKeys: String, CodingKey{
+    enum CodingKeys: String,CodingKey{
         case coords
         case width
         case color
@@ -31,9 +32,3 @@ struct path: Codable{
         case roadType = "road_type"
     }
 }
-
-struct locationPoint: Codable{
-    let lat: Double
-    let lon: Double
-}
-
