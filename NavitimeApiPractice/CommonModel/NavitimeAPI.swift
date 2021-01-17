@@ -38,9 +38,12 @@ class NavitimeAPI{
             URLQueryItem(name: "format", value: "json")
         ]
         
-        guard let url = components.url else {return}
-        print(url)
+//        guard let url = components.url else {return}
+//        print(url)
+//
         
+        let baseurl = "https://navitime-route-car.p.rapidapi.com/shape_car?start=35.6284713,139.7387597&goal=35.4436739,139.6379639&options=turn_by_turn&start_time=2021-01-04T10:00:00&format=json"
+        let url = baseurl.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
         //API通信
         AF.request(url, method: .get, parameters: nil, encoding: JSONEncoding.default, headers: headers).responseJSON {(response) in
            

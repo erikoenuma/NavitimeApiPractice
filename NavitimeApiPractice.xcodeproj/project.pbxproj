@@ -10,7 +10,6 @@
 		3416134725A5B0D400D1C227 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416134625A5B0D400D1C227 /* AppDelegate.swift */; };
 		3416134925A5B0D400D1C227 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416134825A5B0D400D1C227 /* SceneDelegate.swift */; };
 		3416134B25A5B0D400D1C227 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416134A25A5B0D400D1C227 /* ViewController.swift */; };
-		3416134E25A5B0D400D1C227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3416134C25A5B0D400D1C227 /* Main.storyboard */; };
 		3416135025A5B0D700D1C227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3416134F25A5B0D700D1C227 /* Assets.xcassets */; };
 		3416135325A5B0D700D1C227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3416135125A5B0D700D1C227 /* LaunchScreen.storyboard */; };
 		3416135E25A5B0D800D1C227 /* NavitimeApiPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416135D25A5B0D800D1C227 /* NavitimeApiPracticeTests.swift */; };
@@ -18,6 +17,17 @@
 		3416138325A5B24400D1C227 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416138225A5B24400D1C227 /* NextViewController.swift */; };
 		3416138825A5B3E700D1C227 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416138725A5B3E700D1C227 /* Direction.swift */; };
 		3416139725A6053000D1C227 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3416139625A6053000D1C227 /* Geometry.swift */; };
+		341613AA25A74A9700D1C227 /* NavitimeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341613A925A74A9700D1C227 /* NavitimeAPI.swift */; };
+		341613AF25A74B9600D1C227 /* GeometryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341613AE25A74B9600D1C227 /* GeometryAPI.swift */; };
+		341613B525A89BA600D1C227 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341613B425A89BA600D1C227 /* SearchResultViewController.swift */; };
+		341613BA25A89C1A00D1C227 /* SearchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341613B925A89C1A00D1C227 /* SearchResultView.swift */; };
+		341613BF25AA0CC400D1C227 /* RouteShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341613BE25AA0CC400D1C227 /* RouteShape.swift */; };
+		341613C925AA126200D1C227 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341613C825AA126200D1C227 /* SearchViewController.swift */; };
+		341613CF25AB3EB000D1C227 /* SearchResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341613CE25AB3EB000D1C227 /* SearchResultModel.swift */; };
+		341613F025AC70BB00D1C227 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341613EF25AC70BB00D1C227 /* SearchModel.swift */; };
+		341613F825AD8BE800D1C227 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341613F725AD8BE800D1C227 /* SearchView.swift */; };
+		3416140125B1656E00D1C227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341613FF25B1656E00D1C227 /* Main.storyboard */; };
+		3416140A25B1781600D1C227 /* SearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3416140925B1781600D1C227 /* SearchView.xib */; };
 		6FA970FAB79FECEFDEB60899 /* Pods_NavitimeApiPractice_NavitimeApiPracticeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56217280D71CDFF36059925E /* Pods_NavitimeApiPractice_NavitimeApiPracticeUITests.framework */; };
 		CCCAB862194FCF1CD32A243A /* Pods_NavitimeApiPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33368E36286BC0DD27A2B1E6 /* Pods_NavitimeApiPractice.framework */; };
 		EC1434C64B0D151AF813FE0F /* Pods_NavitimeApiPracticeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3251C741F464B7378A74BE77 /* Pods_NavitimeApiPracticeTests.framework */; };
@@ -47,7 +57,6 @@
 		3416134625A5B0D400D1C227 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3416134825A5B0D400D1C227 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3416134A25A5B0D400D1C227 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3416134D25A5B0D400D1C227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3416134F25A5B0D700D1C227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3416135225A5B0D700D1C227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3416135425A5B0D700D1C227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,6 +69,20 @@
 		3416138225A5B24400D1C227 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		3416138725A5B3E700D1C227 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
 		3416139625A6053000D1C227 /* Geometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		341613A925A74A9700D1C227 /* NavitimeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavitimeAPI.swift; sourceTree = "<group>"; };
+		341613AE25A74B9600D1C227 /* GeometryAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryAPI.swift; sourceTree = "<group>"; };
+		341613B425A89BA600D1C227 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		341613B925A89C1A00D1C227 /* SearchResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultView.swift; sourceTree = "<group>"; };
+		341613BE25AA0CC400D1C227 /* RouteShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteShape.swift; sourceTree = "<group>"; };
+		341613C825AA126200D1C227 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		341613CE25AB3EB000D1C227 /* SearchResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultModel.swift; sourceTree = "<group>"; };
+		341613EF25AC70BB00D1C227 /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		341613F725AD8BE800D1C227 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		3416140025B1656E00D1C227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = NavitimeApiPractice/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		3416140525B16C0700D1C227 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3416140925B1781600D1C227 /* SearchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchView.xib; sourceTree = "<group>"; };
+		3416141225B35D8800D1C227 /* MyPlayground2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		34587F0C25B41FFA00E67616 /* DirectionsPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DirectionsPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4551067EEBB739968F05FA97 /* Pods-NavitimeApiPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavitimeApiPractice.debug.xcconfig"; path = "Target Support Files/Pods-NavitimeApiPractice/Pods-NavitimeApiPractice.debug.xcconfig"; sourceTree = "<group>"; };
 		56217280D71CDFF36059925E /* Pods_NavitimeApiPractice_NavitimeApiPracticeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavitimeApiPractice_NavitimeApiPracticeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		732552A0FD83237356C790B0 /* Pods-NavitimeApiPractice-NavitimeApiPracticeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavitimeApiPractice-NavitimeApiPracticeUITests.debug.xcconfig"; path = "Target Support Files/Pods-NavitimeApiPractice-NavitimeApiPracticeUITests/Pods-NavitimeApiPractice-NavitimeApiPracticeUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,16 +145,17 @@
 		3416134525A5B0D400D1C227 /* NavitimeApiPractice */ = {
 			isa = PBXGroup;
 			children = (
+				341613C325AA0CCB00D1C227 /* CommonModel */,
+				341613EE25AC706000D1C227 /* Model */,
+				341613CD25AA304A00D1C227 /* View */,
+				341613C425AA0CEE00D1C227 /* Controller */,
 				3416134625A5B0D400D1C227 /* AppDelegate.swift */,
 				3416134825A5B0D400D1C227 /* SceneDelegate.swift */,
 				3416134A25A5B0D400D1C227 /* ViewController.swift */,
 				3416138225A5B24400D1C227 /* NextViewController.swift */,
-				3416134C25A5B0D400D1C227 /* Main.storyboard */,
 				3416134F25A5B0D700D1C227 /* Assets.xcassets */,
 				3416135125A5B0D700D1C227 /* LaunchScreen.storyboard */,
 				3416135425A5B0D700D1C227 /* Info.plist */,
-				3416138725A5B3E700D1C227 /* Direction.swift */,
-				3416139625A6053000D1C227 /* Geometry.swift */,
 			);
 			path = NavitimeApiPractice;
 			sourceTree = "<group>";
@@ -152,6 +176,50 @@
 				3416136A25A5B0D800D1C227 /* Info.plist */,
 			);
 			path = NavitimeApiPracticeUITests;
+			sourceTree = "<group>";
+		};
+		341613C325AA0CCB00D1C227 /* CommonModel */ = {
+			isa = PBXGroup;
+			children = (
+				341613BE25AA0CC400D1C227 /* RouteShape.swift */,
+				3416138725A5B3E700D1C227 /* Direction.swift */,
+				3416139625A6053000D1C227 /* Geometry.swift */,
+				341613A925A74A9700D1C227 /* NavitimeAPI.swift */,
+				341613AE25A74B9600D1C227 /* GeometryAPI.swift */,
+			);
+			path = CommonModel;
+			sourceTree = "<group>";
+		};
+		341613C425AA0CEE00D1C227 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				341613B425A89BA600D1C227 /* SearchResultViewController.swift */,
+				341613C825AA126200D1C227 /* SearchViewController.swift */,
+				3416141225B35D8800D1C227 /* MyPlayground2.playground */,
+				34587F0C25B41FFA00E67616 /* DirectionsPlayground.playground */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		341613CD25AA304A00D1C227 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				341613B925A89C1A00D1C227 /* SearchResultView.swift */,
+				341613F725AD8BE800D1C227 /* SearchView.swift */,
+				3416140925B1781600D1C227 /* SearchView.xib */,
+				341613FF25B1656E00D1C227 /* Main.storyboard */,
+				3416140525B16C0700D1C227 /* MyPlayground.playground */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		341613EE25AC706000D1C227 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				341613EF25AC70BB00D1C227 /* SearchModel.swift */,
+				341613CE25AB3EB000D1C227 /* SearchResultModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		E54265665C8E37A2989DB08F /* Pods */ = {
@@ -287,9 +355,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3416140A25B1781600D1C227 /* SearchView.xib in Resources */,
+				3416140125B1656E00D1C227 /* Main.storyboard in Resources */,
 				3416135325A5B0D700D1C227 /* LaunchScreen.storyboard in Resources */,
 				3416135025A5B0D700D1C227 /* Assets.xcassets in Resources */,
-				3416134E25A5B0D400D1C227 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,11 +521,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				3416134B25A5B0D400D1C227 /* ViewController.swift in Sources */,
+				341613B525A89BA600D1C227 /* SearchResultViewController.swift in Sources */,
 				3416138325A5B24400D1C227 /* NextViewController.swift in Sources */,
+				341613CF25AB3EB000D1C227 /* SearchResultModel.swift in Sources */,
+				341613BF25AA0CC400D1C227 /* RouteShape.swift in Sources */,
+				341613AF25A74B9600D1C227 /* GeometryAPI.swift in Sources */,
+				341613AA25A74A9700D1C227 /* NavitimeAPI.swift in Sources */,
+				341613C925AA126200D1C227 /* SearchViewController.swift in Sources */,
 				3416139725A6053000D1C227 /* Geometry.swift in Sources */,
 				3416134725A5B0D400D1C227 /* AppDelegate.swift in Sources */,
+				341613F825AD8BE800D1C227 /* SearchView.swift in Sources */,
 				3416134925A5B0D400D1C227 /* SceneDelegate.swift in Sources */,
+				341613F025AC70BB00D1C227 /* SearchModel.swift in Sources */,
 				3416138825A5B3E700D1C227 /* Direction.swift in Sources */,
+				341613BA25A89C1A00D1C227 /* SearchResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,20 +570,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3416134C25A5B0D400D1C227 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3416134D25A5B0D400D1C227 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3416135125A5B0D700D1C227 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3416135225A5B0D700D1C227 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		341613FF25B1656E00D1C227 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3416140025B1656E00D1C227 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
